@@ -1,0 +1,23 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: darkred;
+    color: white; /* Text color for red background */
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 180px;
+    
+  }
+  
+  .faculty_container{
+    display: flex;
+    align-items: center; /* Align content vertically */
+    flex-wrap: wrap;
+    width: 40%;
+    height:90%;
+   
+  }
+  

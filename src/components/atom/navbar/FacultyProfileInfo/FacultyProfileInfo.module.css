@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin-left: 10px;
+  /* text-align: center; */
+  align-items: start;
+  justify-content:space-between;
+}
+.name{
+text-align: left;
+color: rgb(255, 174, 13);
+}
+.title{
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 1.1rem;
+}
+.department{
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+.affiliation{
+  text-align: left;
+  font-size: 1.2rem;
+
+}
+
