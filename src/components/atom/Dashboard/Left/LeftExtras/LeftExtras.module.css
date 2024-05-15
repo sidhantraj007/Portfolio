@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+.block1{
+    color: darkorange;
+}
+.block2{
+    color: teal;
+}

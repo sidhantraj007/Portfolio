@@ -8,16 +8,16 @@ import LeftExtras from '../../atom/Dashboard/Left/LeftExtras/LeftExtras.jsx'
 function Dashboard_left() {
   return (
     <div className={styles.container}>
-      <div>  
+      <div className={styles.image}>  
         <LeftImage/>
       </div>
-      <div className={styles.left}>
+      <div className={styles.description}>
         <LeftDescription/>
       </div>
-      <div>
+      <div className={styles.contacts}>
         <LeftContacts/>
       </div>
-      <div>
+      <div className={styles.extras}>
         <LeftExtras/>
       </div>
       

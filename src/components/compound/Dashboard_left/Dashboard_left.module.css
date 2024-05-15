@@ -5,8 +5,33 @@
     height: 100%;
     width: 100%;
 }
-.left{
-    height: 100%;
-    width: 100%;
+.image{
+    width: 80%;
+    height: 50%;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 30px;
+}
+.description{
     background-color: rgb(7, 37, 49);
+    width: 80%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+}
+.contacts{
+    display: flex;
+    background-color: chocolate;
+    width: 80%;
+    height: 10%;
+    margin: 0px 0px 10px 30px;
+}
+.extras{
+    display: flex;
+    background-color: burlywood;
+    width: 80%;
+    height:20%;
+    margin:0px 0px 20px 30px;
 }

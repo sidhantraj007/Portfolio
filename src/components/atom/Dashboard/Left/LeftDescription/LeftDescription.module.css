@@ -1,4 +1,10 @@
 .containter{
     display: flex;
-    background-color: aqua;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+    margin-bottom: 0px;
+
 }
