@@ -7,7 +7,7 @@ const Dashboard =()=> {
   return (
     <div className={styles.container}>
         <div className={styles.left}>
-        {/* <Dashboard_left/> */}
+        <Dashboard_left/>
         </div>
         <div className={styles.right}>
         <Dashboard_Right/>

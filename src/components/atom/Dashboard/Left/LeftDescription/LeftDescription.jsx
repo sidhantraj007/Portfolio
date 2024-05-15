@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styles from './LeftDescription.module.css'
 
 function LeftDescription() {
   return (
-    <div>LeftDescription</div>
+    <div className={styles.container}>
+
+    </div>
   )
 }
 

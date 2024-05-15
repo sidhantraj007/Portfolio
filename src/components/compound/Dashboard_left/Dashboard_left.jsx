@@ -11,7 +11,7 @@ function Dashboard_left() {
       <div>  
         <LeftImage/>
       </div>
-      <div>
+      <div className={styles.left}>
         <LeftDescription/>
       </div>
       <div>
