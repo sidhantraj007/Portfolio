@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    background-color: yellow;
+    /* background-color: yellow; */
     height:800px;
     flex-direction: row;
 }

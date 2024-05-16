@@ -1,37 +1,54 @@
 .container{
-    background-color: gray;
+    /* background-color: gray; */
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
+    /* box-shadow: 0 0 0.5px 0.5px black;  */
+
 }
 .image{
     width: 80%;
     height: 50%;
-    background-color: azure;
+    /* background-color: azure; */
     align-items: center;
     justify-content: center;
     margin: 20px 0px 0px 30px;
+    /* box-shadow: 5px 5px 5px 5px; */
+    border-radius: 10px 10px 0px 0px;
+    /* border-color: black; */
+    box-shadow: 0 0 1px 0px black; 
 }
 .description{
-    background-color: rgb(7, 37, 49);
+    /* background-color: rgb(7, 37, 49); */
     width: 80%;
     height: 20%;
     align-items: center;
     justify-content: center;
     margin: 0px 0px 0px 30px;
+    box-shadow: 0 0 1px 0.5px black; 
+    border-color: black
+    
 }
 .contacts{
     display: flex;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     width: 80%;
     height: 10%;
     margin: 0px 0px 10px 30px;
+    /* border:2px; */
+    /* border-color: black; */
+    /* box-shadow: 0 0 0.5px 0.5px black;  */
+    box-shadow: 0px 0px 1px 0.5px black;
+    /* border-color: black; */
+    border-radius: 0px 0px 5px 5px;
+    
 }
 .extras{
     display: flex;
     /* background-color: burlywood; */
     width: 80%;
     height:20%;
-    margin:0px 0px 20px 30px;
+    margin:30px 0px 20px 30px;
+    box-shadow: 0 0 1px 0.5px black; 
 }

@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    height: 800px;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width: 100%;
+}
+.contactdetails{
+    display: flex;
+    height:100%;
+    width:30%;
+    background-color: turquoise;
+}
+.map{
+    display: flex;
+    height: 100%;
+    width:70%;
+    background-color: bisque;
+}
