@@ -1,0 +1,33 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.InIcon{
+    display: flex;
+    height: 100%;
+    width: 33.33%;
+    align-items: center;
+    justify-content: end;
+
+}
+.GmailIcon{
+    display: flex;
+    height: 100%;
+    width: 33.33%;
+    align-items: center;
+    justify-content: center;
+
+}
+.scopus{
+    display: flex;
+    height: 100%;
+    width: 33.33%;
+    align-items: center;
+    justify-content: start;
+    margin-right: 25px;
+}
