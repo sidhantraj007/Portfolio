@@ -1,29 +1,28 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Home from '../../../pages/Home/Home'
+import Contacts from '../../../pages/ContactPage/Contacts';
 import style from './NavigationItems.module.css'
-import HomeBtn from '../../atom/NavigationButtons/HomeBtn/HomeBtn'
-import Awards from '../../atom/NavigationButtons/Awards/Awards'
 
-function NavigationItems() {
+const NavigationItems = () => {
   return (
-    <div className={style.container}>
-        <div className={style.homebtn}>
-        <HomeBtn/>
-        </div>
-        <div className={style.awardsbtn}>
-          <Awards/>
-        
-          </div>
-        
-          <div className={style.teachings}>
-          <button onClick={() => this.handleButtonClick('teaching')}>Teaching</button>
-          </div>
-        <div className={style.publications}>
-        <button onClick={() => this.handleButtonClick('publications')}>Publications</button>
-         </div>        
-       
-        
-        </div>
-  )
-}
+    <nav className={style.cantainer}>
+      <ul>
+        <li>
+          <Link to='../../../pages/Home/Home'>Home</Link>
+        </li>
+        {/* <li>
+          <Link to="/publications">Publications</Link>
+        </li> */}
+        <li>
+          <Link to='../../../pages/ContactPage/Contacts'>Contact</Link>
+        </li> 
+         {/* <li>
+          <Link to="/projects">Projects</Link>
+        </li> */}
+      </ul>
+    </nav>
+  );
+};
 
-export default NavigationItems
+export default NavigationItems;
