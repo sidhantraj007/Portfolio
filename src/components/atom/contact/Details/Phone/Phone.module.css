@@ -1,0 +1,24 @@
+.container{
+    height: 100%;
+    width: 100%;
+}
+.Phone{
+    height: 100%;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    justify-content: start;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+
+}
+.name{
+  
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}

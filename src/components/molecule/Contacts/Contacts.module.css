@@ -1,7 +1,14 @@
+.a{
+    background-color: lightgray;
+    height:800px;
+    width: 100%;
+
+}
 .container{
     display: flex;
-    height: 800px;
+    height: 100%;
     width: 100%;
+    background-color: lightgray;
 }
 .heading{
     display: flex;
@@ -10,16 +17,19 @@
     justify-content: center;
     height:50px;
     width: 100%;
+    /* margin-top:10px ; */
+    background-color: lightgray;
 }
 .contactdetails{
     display: flex;
     height:100%;
     width:30%;
-    background-color: turquoise;
+    /* background-color: turquoise; */
 }
 .map{
     display: flex;
     height: 100%;
     width:70%;
-    background-color: bisque;
+    box-shadow: 5px black;
+    /* background-color: bisque; */
 }

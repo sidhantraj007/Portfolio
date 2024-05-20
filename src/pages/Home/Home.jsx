@@ -18,9 +18,9 @@ const Home = () => {
      <Navbar/>
      <Navigation/>
      {/* <Test data={slides}/> */}
-     <Carousel/>
+     {/* <Carousel/> */}
      
-     <Dashboard/>
+     {/* <Dashboard/> */}
        <Contact/>
      <Footer/>
    

@@ -1,11 +1,11 @@
 import React from 'react'
 import style from './ContactMap.module.css'
-import Map from '../../../atom/contact/Map/Map'
+import MyMap from '../../../atom/contact/Map/MyMap'
 
 function ContactMap() {
   return (
     <div className={style.container}>
-        <Map/>
+        <MyMap/>
     </div>
   )
 }

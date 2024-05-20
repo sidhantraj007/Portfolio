@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    background-color: chocolate;
+    /* background-color: pink; */
     margin: 200px 100px 400px 200px;
+    box-shadow: 0.5px black;
 }

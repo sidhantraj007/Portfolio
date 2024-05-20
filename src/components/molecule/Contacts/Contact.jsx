@@ -6,7 +6,8 @@ import ContactHead from '../../compound/Contact/ContactHead/ContactHead.jsx'
 
 function Contact() {
   return (
-    <div >
+   <div className={style.a}>
+   
          <div className={style.heading}>
         <ContactHead/>
     </div>
@@ -19,9 +20,7 @@ function Contact() {
             <ContactMap/>
             </div>
         </div>
-
-
-    </div>
+   </div>
     
   )
 }
