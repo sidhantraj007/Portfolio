@@ -16,8 +16,16 @@
     display: flex;
     align-items: center; /* Align content vertically */
     flex-wrap: wrap;
-    width: 40%;
-    height:90%;
+    width: 100%;
+    height:70%;
    
+  }
+  .navigation{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+    height:30%;
+    width: 100%;
   }
   

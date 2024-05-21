@@ -16,12 +16,13 @@ const Home = () => {
   return (
 
    <div>
-     <Navbar/>
+     {/* <Navbar/> */}
+     {/* <Navigation/> */}
      {/* <NavigationItems/> */}
      {/* <Carousel/> */}
      
      <Dashboard/>
-       <Contact/>
+       {/* <Contact/> */}
      <Footer/>
    
    </div>
