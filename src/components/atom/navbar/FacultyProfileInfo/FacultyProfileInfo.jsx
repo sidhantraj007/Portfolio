@@ -4,10 +4,12 @@ import styles from './FacultyProfileInfo.module.css'
 
 // Import data from the corresponding content.js file
 import facultyData from '../../../../contents/navbar/facultyData.js'
+import Links from '../Links/Links.jsx';
 
 const FacultyProfileInfo = () => {
   return ( 
       <div className={styles.container}> {/* New class for the first container */}
+      <div className={styles.data}>
       <div className={styles.name}>
       <h1>{facultyData.name}</h1>
       </div>
@@ -19,6 +21,12 @@ const FacultyProfileInfo = () => {
       </div>
       <div className={styles.affiliation}>
       <p>{facultyData.affiliation}</p>
+      </div>
+      </div>
+     
+      <div className={styles.links}>
+        <Links/>
+
       </div>
       </div>
       
