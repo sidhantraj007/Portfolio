@@ -2,9 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: start;
     padding: 1rem 2rem;
     background-color: #f0f0f0;
-    height: 110px;
+    border: 2px solid lightgray;
+    font-size: 1.4rem;
+    height: 90px;
     width: 100%;
   }
   
