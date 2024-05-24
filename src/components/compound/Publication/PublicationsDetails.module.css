@@ -6,21 +6,94 @@
     /* align-items: center;
     justify-content: center; */
     /* background-color: blanchedalmond; */
+    border: 2px solid lightgray;
+    border-bottom: none;
+    
 }
-.tabs{
+.data{
     height: 100%;
     width: 100%;
-    /* display: flex;
+    display:flex;
+    flex-direction: column;
     align-items: start;
-    justify-content: start; */
-    /* background-color: lightgray; */
-    margin: 2px;
-    box-shadow: 2px black;
-
+    justify-content: start;
 }
-/* .content{
-    height: 80%;
+.button{
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    border: 1px solid lightgray;
+    /* border-bottom: 0px; */
+    /* background-color: aquamarine; */
+    cursor: pointer;
+    /* height: 10%; */
     width: 100%;
-    background-color:cadetblue ;
+}
+.un{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:start;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.bn{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    margin-right: 30px;
+    cursor: pointer;
+    /* background-color: beige;  */
+    padding-left: 10px;
+}
+.bn:hover{
+    background-color: lightgray;
+}
+.hide{
+    display: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 93%;
+    width: 100%;
+    /* background-color: chocolate; */
+}
 
-} */
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+.text3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 100%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+}

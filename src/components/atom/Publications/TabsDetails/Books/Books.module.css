@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    justify-content: start;
+    /* background-color: purple; */
+    height: 100%;
+    width: 100%;
+
+}
+.books{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: 35%;
+    width: 100%;
+    /* margin-top: 0px; */
+    /* background-color: rgb(145, 20, 57); */
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    height: 12%;
+    width: 100%;
+    background-color:lightgray;
+    border: 1px solid black;
+    margin-top: 0px;
+    /* margin: 10px; */
+}
+.desc{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 88%;
+    width: 100%;
+
+}
+.description{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 40px;
+    
+    /* background-color: brown; */
+
+}
+.imagee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+}
+.journals{
+    display: flex;
+    flex-direction: column;
+    /* /* align-items: center; */
+    justify-content: start; 
+    height:65%;
+    width: 100%;
+    /* background-color: purple; */
+    /* overflow: hidden;  */
+}
+.head2{
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    justify-content: start;
+    height: 10%;
+    width: 100%;
+    background-color: lightgray;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: 10px;
+    height: 90%;
+    width: 100%;
+    /* background-color: chocolate; */
+
+}
+
+.list{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: start;
+    justify-content: start;
+    /* background-color: antiquewhite; */
+    /* justify-content: start; */
+    margin: 0px 20px 20px 0px ;
+    font-size: 1.2rem;
+    height: 90%;
+    width: 90%;
+    /* overflow: hidden; */
+}
+.l{
+    /* display: flex; */
+    /* flex-direction: row ; */
+    margin-bottom: 30px;
+    /* overflow: hidden; */
+
+}
+.p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}

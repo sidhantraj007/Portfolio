@@ -17,7 +17,7 @@ const Links = () => {
      </div>
 
         <div>
-        <Link to="https://support.google.com/mail/answer/56256?hl=en" style={{ display: 'flex', alignItems: 'center' ,margin:'0px 20px 5px 0px', color:'white', fontSize:'1.8rem'}}>
+        <Link to="https://support.google.com/mail/answer/56256?hl=engit " style={{ display: 'flex', alignItems: 'center' ,margin:'0px 20px 5px 0px', color:'white', fontSize:'1.8rem'}}>
     <TiSocialGooglePlus />
     </Link>
         </div>
