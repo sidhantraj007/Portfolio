@@ -13,8 +13,8 @@ const Address = () => {
         <p>
         Department of Electrical Engineering,                       
         <p>Indian Institute of Technology Kanpur,</p>
-        
-    Kalyanpur, Kanpur Nagar, 208016,
+        <p>Kalyanpur, Kanpur Nagar, 208016,</p>        
+    
     <p>Uttar Pradesh, India</p>
     </p></div>
   </div>

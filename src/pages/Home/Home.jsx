@@ -9,13 +9,14 @@ import Contact from '../../components/molecule/Contacts/Contact';
 // import slides from '../../contents/Carousel/Carousel.json'
 import Carousel from'../../components/molecule/Carousel/Carousel'
 // import NavigationItems from '../../components/compound/Navigation/NavigationItems';
+import styles from './Home.module.css'
 
 
 
 const Home = () => {
   return (
 
-   <div>
+   <div className={styles.container}>
      {/* <Navbar/> */}
      {/* <Navigation/> */}
      {/* <NavigationItems/> */}

@@ -1,6 +1,8 @@
 .list{
-    padding-inline-start: 0;
-    inline-size: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 .lis{
     display: flex;
@@ -8,4 +10,8 @@
     align-items: start;
     justify-content: start;
     margin-left: 14px;
+    flex-wrap: wrap;
+   
 }
+
+/* /* media queries */

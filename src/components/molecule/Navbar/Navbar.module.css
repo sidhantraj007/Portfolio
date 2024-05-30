@@ -1,15 +1,24 @@
 /* Navbar.css */
 
+.nav{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
 .navbar {
     background-color: darkred;
     color: white; /* Text color for red background */
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
     height: 180px;
-    
+    width: 100vw;
+
+    /* border: 1px solid gray; */
+    /* position:absolute; */
   }
   
   .faculty_container{
@@ -24,8 +33,32 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: aqua;
+    /* background-color: aqua; */
     height:30%;
     width: 100%;
   }
-  
+
+  /* media queries */
+
+   @media(max-width:900px)
+  {
+    .navbar{
+    height: 280px;
+    }
+    .faculty_container{
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      /* background-color: chocolate; */
+    }
+    .navigation{
+      /* height: 20%; */
+    }
+  }
+
+  @media(max-width:768px){
+    .navbar{
+      height: 140px;
+    }
+  }
+   

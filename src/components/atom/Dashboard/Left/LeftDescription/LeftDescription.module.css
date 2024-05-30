@@ -7,3 +7,10 @@
     /* background-color: rgb(63, 127, 183); */
 
 }
+.desc{
+    display: flex;
+     align-items: center ;
+     margin:0px 0px 10px 0px;  
+     font-size:1.3rem;
+
+}

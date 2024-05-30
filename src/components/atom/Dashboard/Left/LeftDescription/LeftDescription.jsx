@@ -10,16 +10,16 @@ function LeftDescription() {
   return (
     <div className={styles.container}>
       <div className={styles.mail}>
-      <p style={{ display: 'flex', alignItems: 'center' ,margin:'0px 0px 5px 0px', fontSize:'1.3rem'}}>
-      <IoIosMail /> <span style={{ marginLeft: '10px' }}>raghvendra@iitk.ac.in</span>
+      <p className={styles.desc}>
+      <IoIosMail />raghvendra@iitk.ac.in
 </p>
-<p style={{ display: 'flex', alignItems: 'center',margin:'0px 0px 5px 0px', fontSize:'1.3rem' }}>
-  <FaHome /> <span style={{ marginLeft: '10px' }}>Office: ACES-325</span>
+<p className={styles.desc}>
+  <FaHome /> Office: ACES-325
 </p>
      
-<p style={{ display: 'flex', alignItems: 'center',margin:'0px 0px 5px 0px' ,margin:'0px 0px 5px 0px', fontSize:'1.3rem'}}>
-<MdPhone/> <span style={{ marginLeft: '10px' }}> +91-512-679-2306
-</span>
+<p className={styles.desc}>
+<MdPhone/> +91-512-679-2306
+
 </p>
 
       

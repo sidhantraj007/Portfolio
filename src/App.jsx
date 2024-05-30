@@ -8,6 +8,7 @@ import Publications from './pages/Publications/Publications';
 
 const App = () => {
   return (
+    <div >
     <Router>
       <Navbar />
       <Routes>
@@ -16,6 +17,9 @@ const App = () => {
         <Route path="/publications" element={<Publications/>}/>
       </Routes>
     </Router>
+    </div>
+
+    
   );
 };
 
