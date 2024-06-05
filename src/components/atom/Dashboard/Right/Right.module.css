@@ -16,10 +16,12 @@
     height:fit-content;
     /* width: fit-content; */
     font-size: 1.7rem;
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     justify-content: center;
     margin-bottom: 20px;
-    margin-top: 3vh;
+    margin-top: 5vh;
+    text-align: justify;
+    padding-right: 15px;
     /* background-color: purple; */
 }
 .lower{
@@ -35,3 +37,12 @@
 }
 
 /* media queries */
+@media (max-width:428px){
+    .upper{
+        margin-top: 1.5vh;
+        font-size: 1.4rem;
+    }
+    .lower{
+        font-size: 1.0rem;
+    }
+}
