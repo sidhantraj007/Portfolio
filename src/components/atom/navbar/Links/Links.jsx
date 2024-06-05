@@ -11,23 +11,23 @@ const Links = () => {
     <div className={styles.container}>
     <div className={styles.links}>
         <div>
-        <Link to="https://x.com/?lang=en" style={{ display: 'flex', alignItems: 'center' ,margin:'0px 20px 5px 0px', color:'white', fontSize:'1.8rem'}} >
+        <Link to="https://x.com/?lang=en"  className={styles.lin} >
     <FaTwitter />
     </Link>
      </div>
 
         <div>
-        <Link to="https://support.google.com/mail/answer/56256?hl=engit " style={{ display: 'flex', alignItems: 'center' ,margin:'0px 20px 5px 0px', color:'white', fontSize:'1.8rem'}}>
+        <Link to="https://support.google.com/mail/answer/56256?hl=engit " className={styles.lin}>
     <TiSocialGooglePlus />
     </Link>
         </div>
         <div>
-        <Link to="https://in.linkedin.com/" style={{ display: 'flex', alignItems: 'center' ,margin:'0px 20px 5px 0px', color:'white', fontSize:'1.6rem'}}>
+        <Link to="https://in.linkedin.com/" className={styles.lin}>
     <FaLinkedinIn />
     </Link>
         </div>
         <div>
-        <Link to="https://www.scopus.com/search/form.uri?display=basic&zone=header&origin=#basic" style={{ display: 'flex', alignItems: 'center' ,margin:'0px 20px 5px 0px', color:'white', fontSize:'1.6rem'}}> Scopus
+        <Link to="https://www.scopus.com/search/form.uri?display=basic&zone=header&origin=#basic"className={styles.lin}> <p>Scopus</p>
     </Link>
     
         </div>

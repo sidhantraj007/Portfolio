@@ -12,22 +12,38 @@
     height: 100%;
     width: 33.33%;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    /* background-color: aquamarine; */
 
 }
 .GmailIcon{
     display: flex;
     height: 100%;
-    width: 33.33%;
+    width: 31%;
     align-items: center;
     justify-content: center;
+    /* background-color: plum; */
 
 }
 .scopus{
     display: flex;
     height: 100%;
-    width: 33.33%;
+    width: 35%;
     align-items: center;
-    justify-content: start;
-    margin-right: 25px;
+    justify-content: center;
+    margin-right: 2vw;
+    /* background-color: aqua; */
+}
+.h{
+    font-size: 2.3vw;
+}
+.i{
+    font-size: 3vw;
+}
+.ic{
+    align-self: center;
+    color: black;
+    font-size:2.5vw;
+    padding: 20%;
+    /* style={{ color: 'black', fontSize: 35, padding: '10px' }} */
 }

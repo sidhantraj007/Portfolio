@@ -8,13 +8,13 @@ function LeftContacts() {
   return (
     <div className={styles.container}>
       <div className={styles.InIcon}>
-      <FaLinkedinIn style={{ color: 'black', fontSize: 24, padding: '10px' }} />
+      <FaLinkedinIn className={styles.ic} />
       </div>
       <div className={styles.GmailIcon}>
-      <TiSocialGooglePlus style={{ color: 'black', fontSize: 35, padding: '10px' }} />
+      <TiSocialGooglePlus className={styles.i} />
       </div>
       <div className={styles.scopus}>
-       <h2>Scopus</h2>
+       <h2 className={styles.h}>Scopus</h2>
       </div>
 
     </div>
