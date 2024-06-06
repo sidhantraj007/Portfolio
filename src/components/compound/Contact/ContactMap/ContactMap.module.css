@@ -1,11 +1,23 @@
 .container{
-    height: 400px;
-    width:800px;
+    /* height: 400px; */
+    width:80vw;
     display: flex;  
     flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    /* background-color: pink; */
-    margin: 200px 100px 400px 200px;
+    align-items: start;
+    justify-items:end;
+    background-color: pink;
+    /* margin: 200px 100px 400px 200px; */
+    margin: 3vw;
+    /* margin-left: 3vw; */
     box-shadow: 0.5px black;
+}
+
+/* media queries  */
+
+
+@media (max-width:1200px)
+{
+    .container{
+        margin: 0vw;
+    }
 }

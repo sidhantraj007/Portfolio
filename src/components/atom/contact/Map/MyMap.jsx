@@ -2,10 +2,13 @@
 
 import React, { useState } from 'react';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
+import styles from './Map.module.css'
 
 const containerStyle = {
   width: '100%',
-  height: '400px'
+  height: '40vh',
+  // alignitem:'center',
+  // justifycontent:'center'
 };
 
 const center = {
@@ -17,8 +20,9 @@ function MyMapComponent() {
   const [selected, setSelected] = useState(null);
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBbLzyqmTrMJo4I2o1EemcBtZQDHTPAZ0Y">
-      <GoogleMap
+    <div className={styles.container}>
+       <LoadScript googleMapsApiKey="AIzaSyBbLzyqmTrMJo4I2o1EemcBtZQDHTPAZ0Y">
+      <GoogleMap 
         mapContainerStyle={containerStyle}
         center={center}
         zoom={15}
@@ -40,6 +44,9 @@ function MyMapComponent() {
         )}
       </GoogleMap>
     </LoadScript>
+
+    </div>
+   
   );
 }
 

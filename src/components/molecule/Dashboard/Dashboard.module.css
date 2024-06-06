@@ -9,7 +9,8 @@
 }
 .box{
     display: flex;
-    width: 100vw;
+    width: 95vw;
+    /* background-color: aqua; */
     /* height: 100%; */
     /* border: 1px solid gray; */
 }
@@ -28,6 +29,7 @@
     width:70vw;
     margin-left: 10px;
     /* background-color: chocolate; */
+    margin-left: 2%;
 }
 
 /* media queries */
