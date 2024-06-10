@@ -20,7 +20,7 @@
     height:70px;
     width: 100%;
     /* margin-top:10px ; */
-    background-color: purple;
+    /* background-color: purple; */
 }
 .contactdetails{
     display: flex;
@@ -28,7 +28,7 @@
     justify-self: start;
     height:90vh;
     width:40vw;
-    background-color: turquoise;
+    /* background-color: turquoise; */
 }
 .map{
     display: flex;
@@ -38,7 +38,7 @@
     height: 90vh;
     width:70vw;
     box-shadow: 5px black;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 @media (max-width:1200px){

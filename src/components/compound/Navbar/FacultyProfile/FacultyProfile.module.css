@@ -13,7 +13,7 @@
 .left_container{
     /* width: 9%;
     height: 90%; */
-    width: 9%;
+    /* width: 12rem; */
     height: 100%;
     margin-left: 4%;
     display: flex;
@@ -28,7 +28,7 @@
 }
 .right_container{
     /* width:calc(100% - 150px); */
-    width: 100%;
+    width: 88%;
     height: 100%;
     /* padding: 10px; */
     /* background-color: pink; */

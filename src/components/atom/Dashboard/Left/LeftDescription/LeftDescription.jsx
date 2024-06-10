@@ -14,7 +14,7 @@ function LeftDescription() {
       <IoIosMail />raghvendra@iitk.ac.in
 </p>
 <p className={styles.desc}>
-  <FaHome /> Office: ACES-325
+  <FaHome />ACES-325
 </p>
      
 <p className={styles.desc}>

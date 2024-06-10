@@ -16,13 +16,13 @@
 }
 .left{
     display: flex;
-    /* height: 100%; */
-    width:20rem;
+    height: 40%;
+    width:24rem;
     align-items: start;
     justify-content: start;
     /* margin-right: 20px; */
     flex-shrink: 0;
-    /* background-color: gray; */
+    /* background-color:pink; */
 } 
 .right{
     height: fit-content;

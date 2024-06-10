@@ -9,10 +9,10 @@ function Block4() {
   return (
     <div className={styles.container}>
       <div className={styles.icon}>
-      <FaBook style={{ color: 'black', fontSize: 24, padding: '10px' }}/>
+      <FaBook style={{ color: 'black', fontSize: 24, padding: '10px' , color:'#800001'}}/>
     </div>
     <div className={styles.number}>
-      <p style={{ color: 'black', fontSize: 24, padding: '10px' }}>3500</p>
+      <p style={{ color: 'black', fontSize: 24, padding: '10px', color:'#800001' }}>3500</p>
 
     </div>
     <div className={styles.text}>

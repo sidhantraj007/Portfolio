@@ -6,10 +6,10 @@ function Block2() {
   return (
     <div className={styles.container}>
       <div className={styles.icon}>
-      <FaRupeeSign style={{ color: 'black', fontSize: 24, padding: '10px' }} />
+      <FaRupeeSign style={{ color: 'black', fontSize: 24, padding: '10px', color:'#800001' }} />
     </div>
     <div className={styles.number}>
-      <p style={{ color: 'black', fontSize: 24, padding: '10px' }}>48M</p>
+      <p style={{ color: 'black', fontSize: 24, padding: '10px', color:'#800001' }}>48M</p>
 
     </div>
     <div className={styles.text}>
