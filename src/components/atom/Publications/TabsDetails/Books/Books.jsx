@@ -9,17 +9,17 @@ const Books = () => {
     <div className={styles.container}>
        <div className={styles.books}>
        <div className={styles.head}>
-          <h1 style={{display:'flex', justifyContent:'start' , alignItems:'center', margin:'20px 20px 20px 20px', fontSize:'2.5rem'}}>Books</h1>
+          <h1 className={styles.book}>Book</h1>
         </div>
        <div className={styles.desc}>
        <div className={styles.description}>
-        <p className={styles.p}>Circularly Polarized Dielectric Resonator Antennas</p>
+        <p className={styles.pi}>Circularly Polarized Dielectric Resonator Antennas</p>
         <p className={styles.p}>ISBN: 9781630818173, Artech House, London, United Kingdom, 2021.</p>
        
        
        </div>
-       <div className={styles.imagee}>
-         <img  style= {{height:'80%', width:'80%'}}src={image} alt='book'/>
+       <div >
+         <img className={styles.imagee} src={image} alt='book'/>
 
        </div>
        </div>
@@ -27,14 +27,14 @@ const Books = () => {
       </div> 
       <div className={styles.journals}>
         <div className={styles.head2}>
-          <h1 style={{display:'flex', justifyContent:'start' , alignItems:'center', margin:'20px 20px 20px 20px', fontSize:'2.5rem'}}>Selected Journals</h1>
+          <h1 className={styles.sj}>Selected Journals</h1>
         </div>
         <div className={styles.details}>
-        <ol className={styles.list}>
+        <ul className={styles.list}>
         {books.map((item, index) => (
           <li className={styles.l} key={index}>{item}</li>
         ))}
-      </ol>
+      </ul>
 
         </div>
 
