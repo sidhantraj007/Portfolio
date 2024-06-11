@@ -1,22 +1,38 @@
 import React from 'react';
 import styles from './FooterContent.module.css'
+import { Link, useLocation } from 'react-router-dom';
 import FooterLink from '../../atom/footer/FooterLink/FooterLink';
-import FooterImage from '../../atom/footer/FooterImage/FooterImage';
 
 const FooterContent = () => {
+  console.log(styles);
   return (
     <div className={styles.container}>
-        <p className="text-muted">
-      <FooterLink text="Home" href="/" />
-      <span> | </span>
-      <FooterLink text="Webmail" href="/webmail" />
-      <span> | </span>
-      <FooterLink text="EE" href="/ee" />
-      <span> | </span>
-      <FooterLink text="IIT Kanpur" href="/iit-kanpur" />
-      <span> | </span>
-      Last Update: April 29, 2024
-    </p></div>
+
+<Link className={styles.ft} to="/home">
+        Home
+      </Link>
+      <span className={styles.line}> | </span>
+      <Link className={styles.ft}
+        to="/contacts"
+      >
+        Webmail
+      </Link>
+      <span className={styles.line}> | </span>
+      <Link className={styles.ft}
+        to="/publications" 
+      >
+        EE
+      </Link>
+      <span className={styles.line}> | </span>
+      <Link className={styles.ft}
+        to="/contacts"
+      >
+        IIT Kanpur
+      </Link>
+      <span className={styles.line}> | </span>
+      
+      <p className={styles.ft}>Last Update: April 29, 2024</p>
+    </div>
   );
 };
 

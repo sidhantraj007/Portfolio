@@ -7,7 +7,7 @@ const Confrences = () => {
   return (
     <div className={styles.container}>
        < div className={styles.head}>
-      <h1 style={{display:'flex', justifyContent:'start' , alignItems:'center', margin:'20px 20px 20px 20px', fontSize:'2.5rem'}}>Conferences</h1>
+      <h1 className={styles.jr}>Conferences</h1>
         </div>
         <div className={styles.journals}>
         <ol className={styles.list}>
