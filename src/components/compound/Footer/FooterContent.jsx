@@ -13,9 +13,9 @@ const FooterContent = () => {
       </Link>
       <span className={styles.line}> | </span>
       <Link className={styles.ft}
-        to="/contacts"
+        to="/login"
       >
-        Webmail
+        Admin
       </Link>
       <span className={styles.line}> | </span>
       <Link className={styles.ft}

@@ -15,7 +15,7 @@ const Contacts = () => {
   return (
 
    <div>
-     {/* <Navbar/> */}
+     {/* <Navbar/> */}<Navbar/>
      {/* <Navigation/> */}
    
      {/* <Dashboard/> */}

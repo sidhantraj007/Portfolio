@@ -25,6 +25,17 @@ const Navigation = () => {
       >
         Publications
       </Link>
+
+      <Link 
+        to="/form" 
+        className={`${styles.navLink} ${location.pathname === '/form' ? styles.active : ''}`}
+      >
+      </Link>
+      <Link 
+        to="/login" 
+        className={`${styles.navLink} ${location.pathname === '/login' ? styles.active : ''}`}
+      >
+      </Link>
     </nav>
   );
 };

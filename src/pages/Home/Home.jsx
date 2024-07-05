@@ -17,7 +17,7 @@ const Home = () => {
   return (
 
    <div className={styles.container}>
-     {/* <Navbar/> */}
+     <Navbar/>
      {/* <Navigation/> */}
      {/* <NavigationItems/> */}
      {/* <Carousel/> */}

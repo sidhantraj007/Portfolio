@@ -7,10 +7,10 @@ function Block3() {
   return (
     <div className={styles.container}>
       <div className={styles.icon}>
-      <FaGraduationCap style={{ color: 'black', fontSize: 30, padding: '10px' , color:'#800001' }} />
+      <FaGraduationCap style={{  fontSize: 30, padding: '10px' , color:'#800001' }} />
     </div>
     <div className={styles.number}>
-    <p style={{ color: 'black', fontSize:28, padding: '10px' , color:'#800001'}}>11</p>
+    <p style={{ fontSize:28, padding: '10px' , color:'#800001'}}>11</p>
 
     </div>
     <div className={styles.text}>
